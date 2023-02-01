@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Isabella Yiran Zhi's personal website</title>
+    <link href='styles/site.css' type='text/css' rel='stylesheet'>
+</head>
+
+<body>
+<div class = 'nav'>
+    <nav>
+        <ul>
+            <li><a class = 'nav' href = 'index.html'>About</a></li>
+            <li><a class = 'nav' href = 'explore.html'>Explore</a></li>
+            <li><a class = 'nav' href = 'vision.html'>Vision</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class='theme'>
+    <!-- Source: (original work) Isabella Zhi -->
+    <img class='theme' src="images/theme-p.jpg" alt="apples in baskets"/>
+</div>
+
+<main>
+<div id = 'about-head-flex'>
+    <div id = 'about-info'>
+        <h1>Apple Festival</h1>
+        <h3>Time: Oct 01 - 03, 10:00 - 18:00</h3>
+        <h3>Location: Ithaca Commons</h3>
+    </div>
+    <div id = 'map-before-expand'>
+        <figure>
+            <!-- Source: https://www.cityofithaca.org/DocumentCenter/View/1432/Downtown-Ithaca-PDF?bidId= -->
+            <img id = 'about-map2' src="images/about-map2.png" alt="map of Ithaca area"/>
+            <button class = 'expand' id = 'adaptable-window-expand-button' aria-label = 'expand map'>Click to Expand</button>
+            <figcaption>map of Ithaca area. Source: <cite><a href="https://www.cityofithaca.org/DocumentCenter/View/1432/Downtown-Ithaca-PDF?bidId=">The Ithacan</a></cite></figcaption>
+        </figure>
+    </div>
+</div>
+
+<div class = 'hidden' id = 'adaptable-window-interactivity'>
+<figure>
+    <button id = 'adaptable-window-collapse-button' aria-label = 'collapse map'>Click to Collapse</button>
+    <!-- Source: https://www.cityofithaca.org/DocumentCenter/View/1432/Downtown-Ithaca-PDF?bidId= -->
+    <img id = 'about-map-adaptable-window' src="images/about-map-adaptable-window.jpg" alt="map of Ithaca area"/>
+    <figcaption>map of Ithaca area. Source: <cite><a href="https://www.cityofithaca.org/DocumentCenter/View/1432/Downtown-Ithaca-PDF?bidId=">The Ithacan</a></cite></figcaption>
+</figure>
+</div>
+
+<div>
+    <h3 class="h3-background">The 39th Annual Apple Harvest Festival is Back!</h3> <p id = 'about-paragraph'>The best way to kick off New York Cider Week! Come and meet our fascinating apple growers, cider makers, and delectable cider donuts in Downtown Ithaca, New York!
+    Apple Harvest Festival will invite a variety of farms that offer fresh apples and apple products, delectable baked goods, food trucks offering tasty bites, and a craft fair with artisans from around the region. There will also be live music and entertainment, plus a great blend of handicraft and book stores around Downtown Ithaca.</p>
+    <figure>
+        <!-- Source: https://theithacan.org/life-culture/ithaca-apple-festival-to-return-to-the-commons/ -->
+        <img id='about' src="images/about.jpg" alt="a stallholder introducing products to visitors"/>
+        <figcaption class='center'> a stallholder introducing products to visitors. Source: <cite><a href="https://theithacan.org/life-culture/ithaca-apple-festival-to-return-to-the-commons/">The Ithacan</a></cite></figcaption>
+    </figure>
+</div>
+
+<h2>Transportations</h2>
+
+<div class = 'about-transportations'>
+    <h3 class='text-transportations'>Bus</h3>
+    <p class='text-transportations'>Bus is definitely the best means of transportation for visiting the festival! This map shows all routes that stop at Green Station @ Ithaca Commons. Please plan your trip using a digital map in advance.</p>
+    <p class='text-transportations'>All available routes are Greens Station @ Ithaca Commons are marked in the map below.</p>
+    <div class = 'tab'>
+        <div class = 'tab-button-banner'>
+            <button class = 'tab-button' id = 'tab-button-cornell' aria-label = 'route from Cornell'>CORNELL</button>
+            <button class = 'tab-button' id = 'tab-button-ithaca' aria-label = 'route from Ithava College'>ITHACA COLLEGE</button>
+            <button class = 'tab-button' id = 'tab-button-lansing' aria-label = 'route from Lansing'>LANSING</button>
+        </div>
+        <div id = 'tab-content-bus-1' class = 'tab-content'>
+            <p class = 'tab-title'>Cornell University</p>
+            <figure>
+                <!-- Source: https://realtimetcatbus.availtec.com/InfoPoint/ -->
+                <img class = 'img-transportations' src="images/about-bus-cornell.png" alt="route by bus transportation"/>
+                <figcaption>route by bus. Source: <cite><a href="https://realtimetcatbus.availtec.com/InfoPoint/">TCAT</a></cite></figcaption>
+            </figure>
+        </div>
+        <div id = 'tab-content-bus-2' class = 'tab-content hidden'>
+            <p class = 'tab-title'>Ithaca College</p>
+            <figure>
+                <!-- Source: https://realtimetcatbus.availtec.com/InfoPoint/ -->
+                <img class = 'img-transportations' src="images/about-bus-ithaca.png" alt="route by bus transportation"/>
+                <figcaption>route by bus. Source: <cite><a href="https://realtimetcatbus.availtec.com/InfoPoint/">TCAT</a></cite></figcaption>
+            </figure>
+        </div>
+        <div id = 'tab-content-bus-3' class = 'tab-content hidden'>
+            <p class = 'tab-title'>Lansing</p>
+            <figure>
+                <!-- Source: https://realtimetcatbus.availtec.com/InfoPoint/ -->
+                <img class = 'img-transportations' src="images/about-bus-lansing.png" alt="route by bus transportation"/>
+                <figcaption>route by bus. Source: <cite><a href="https://realtimetcatbus.availtec.com/InfoPoint/">TCAT</a></cite></figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+
+<div class = 'about-transportations'>
+    <h3 class='head-transportations'>Drive</h3>
+    <p class='text-transportations'>If you drive to the festival, please check out this map to check out the state routes, detour and constructions sites. If you park in the designated garages, some of them will offer parking discount if you are carry apples home! You can also find on-street parking on the map, but please be noted that on-street space is very limited.</p>
+    <p class='text-transportations'>All State Routes are marked in red in the maps</p>
+    <div class = 'tab'>
+        <div class = 'tab-button-banner'>
+            <button class = 'tab-button' id = 'tab-button-garage' aria-label = 'nearby garage'>GARAGE</button>
+            <button class = 'tab-button' id = 'tab-button-street' aria-label = 'on-street parking'>ON-STREET PARKING</button>
+            <button class = 'tab-button' id = 'tab-button-detour' aria-label = 'detour'>DETOUR</button>
+        </div>
+        <div class = 'tab-content' id = 'tab-content-drive-1'>
+            <p class = 'tab-title'>Garages</p>
+            <figure>
+                <!-- Source: https://www.cityofithaca.org/DocumentCenter/View/1429/Ithaca-Urban-Area-Municipalities-and-Roads-PDF?bidId= -->
+                <img class='img-transportations' src="images/about-drive-garages.jpg" alt="route by drive"/>
+                <figcaption>route by drive. Source: <cite><a href="https://www.cityofithaca.org/DocumentCenter/View/1429/Ithaca-Urban-Area-Municipalities-and-Roads-PDF?bidId=">City of Ithaca</a></cite></figcaption>
+            </figure>
+        </div>
+        <div class = 'tab-content hidden' id = 'tab-content-drive-2'>
+            <p class = 'tab-title'>On-street Parking</p>
+            <figure>
+                <!-- Source: https://www.cityofithaca.org/DocumentCenter/View/1429/Ithaca-Urban-Area-Municipalities-and-Roads-PDF?bidId= -->
+                <img class='img-transportations' src="images/about-drive-on-street-parking.jpg" alt="route by drive"/>
+                <figcaption>route by drive. Source: <cite><a href="https://www.cityofithaca.org/DocumentCenter/View/1429/Ithaca-Urban-Area-Municipalities-and-Roads-PDF?bidId=">City of Ithaca</a></cite></figcaption>
+            </figure>
+        </div>
+        <div class = 'tab-content hidden' id = 'tab-content-drive-3'>
+            <p class = 'tab-title'>Detour</p>
+            <figure>
+                <!-- Source: https://www.cityofithaca.org/DocumentCenter/View/1429/Ithaca-Urban-Area-Municipalities-and-Roads-PDF?bidId= -->
+                <img class='img-transportations' src="images/about-drive-detour.jpg" alt="route by drive"/>
+                <figcaption>route by drive. Source: <cite><a href="https://www.cityofithaca.org/DocumentCenter/View/1429/Ithaca-Urban-Area-Municipalities-and-Roads-PDF?bidId=">City of Ithaca</a></cite></figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+
+<div class = 'about-transportations'>
+    <h3 class='head-transportations'>Walk</h3>
+    <p class='text-transportations'>If you live close, please consider walking because the traffic may be quite crowded around Ithaca Commons! On your way, please feel free to visit the fabulous shops around downtown area. There are various cultural handicraft shops, used-books shops, and delicious restaurants with a wide range of cuisines!</p>
+    <div class = 'tab'>
+        <div class = 'tab-button-banner'>
+            <button class = 'tab-button' id = 'tab-button-ped' aria-label = 'pedestrian way'>PEDESTRIAN-ONLY</button>
+            <button class = 'tab-button' id = 'tab-button-walk-detour' aria-label = 'detour'>DETOUR</button>
+        </div>
+        <div class = 'tab-content' id = 'tab-content-walk-1'>
+            <p class = 'tab-title'>Pedestrian-only</p>
+            <figure>
+                <!-- Source: https://www.cityofithaca.org/DocumentCenter/View/1432/Downtown-Ithaca-PDF?bidId= -->
+                <img class='img-transportations' src="images/about-walk-pedestrian.jpg" alt="route on foot"/>
+                <figcaption>route on foot. Source: <cite><a href="https://www.cityofithaca.org/DocumentCenter/View/1432/Downtown-Ithaca-PDF?bidId=">City of Ithaca</a></cite></figcaption>
+            </figure>
+        </div>
+        <div class = 'tab-content hidden' id = 'tab-content-walk-2'>
+            <p class = 'tab-title'>Detour</p>
+            <figure>
+                <!-- Source: https://www.cityofithaca.org/DocumentCenter/View/1432/Downtown-Ithaca-PDF?bidId= -->
+                <img class='img-transportations' src="images/about-walk-detour.jpg" alt="route on foot"/>
+                <figcaption>route on foot. Source: <cite><a href="https://www.cityofithaca.org/DocumentCenter/View/1432/Downtown-Ithaca-PDF?bidId=">City of Ithaca</a></cite></figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+
+
+</main>
+
+    <script type = 'text/javascript' src = 'scripts/jquery-3.6.0.js'></script>
+    <script type = 'text/javascript' src = 'scripts/interactivity.js'></script>
+</body>
+</html>
